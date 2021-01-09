@@ -9,17 +9,6 @@ header, nav, main, footer{
 
 }
 
-header {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-height: 120px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-}
-
 .self-portrait {
     float: right;
     margin: 10px;
@@ -30,6 +19,7 @@ header, footer {
     border-radius: 15px;
     background-color: #DD403A;
     padding: 1.5rem;
+    text-align: center;
 }
 
 h1 {
@@ -45,10 +35,4 @@ ul li {
     font-family:  'Lato', sans-serif;
     line-height: 1.8em;
  }
-
-#content {
-    margin: 20px 0 40px 0;
-    max-width: 700px;
-    margin: auto;
-}
 
