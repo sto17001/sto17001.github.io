@@ -1,15 +1,12 @@
     header {
         background-color: blue;
-        text-align: center;
     }
 
     footer {
         background-color: blue;
-        text-align: center;
     }
 
     #content {
         margin: 20px 0 40px 0;
-        display: flex;
     }
 
