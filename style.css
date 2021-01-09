@@ -15,8 +15,8 @@
 
     .self-portrait {
         float: right;
-        max-width: 8px;
-        max-height: 8px;
+        max-width: 25%;
+        max-height: 25%;
     }
 
     header, footer {
