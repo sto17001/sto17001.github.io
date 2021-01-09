@@ -4,32 +4,29 @@
   <title>Tyler Stowell's Course Portal Home Page</title>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-    header {
-        background-color: #F5F5F5}
-
-    footer {
-        background-color: #F5F5F5}
-</style>
 <body>
-    <header>
-        <h1 class= "main-header">Tyler B. Stowell</h1>
-        <div class="self-portrait"><img src= "IMG_5074(1).jpg" alt = "A self portrait of Tyler Stowell"></div>
-    </header>
-    <main>
-        <h2 class= "second-header">CIT 230: Assignment Portal</h2>
-        <nav>
-            <ul>
-                <!-- navigation here -->
-                <li>Lesson 02:<a href="">Assignment Link</a></li>
-                <li>Lesson 03:<a href="">Assignment Link</a></li>
-                <li>Lesson 04:<a href="">Assignment Link</a></li>
-            </ul>
-        </nav>
-    </main>
-    <footer>
-        <p>&copy; 2021 | Tyler B. Stowell | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
-    </footer>
+    <div id="content">
+        <header>
+            <h1 class= "main-header">Tyler B. Stowell</h1>
+            <div class="self-portrait"><img src= "IMG_5074(1).jpg" alt = "A self portrait of Tyler Stowell"></div>
+        </header>
+        <main>
+            <h2 class= "second-header">CIT 230: Assignment Portal</h2>
+            <nav>
+                <ul>
+                    <!-- navigation here -->
+                    <li>Lesson 02:<a href="">Assignment Link</a></li>
+                    <li>Lesson 03:<a href="">Assignment Link</a></li>
+                    <li>Lesson 04:<a href="">Assignment Link</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentyear"></span> | Tyler B. Stowell | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
+            Last Updated: <span id="lastupdate"></span>
+        </footer>
+    </div>
 </body>
 </html>
