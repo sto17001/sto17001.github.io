@@ -18,6 +18,11 @@
         margin-top: -100px;
         border-radius: 35px;
     }
+    .self-portrait {
+        grid-column: 1/2;
+        grid-row: 2/2;
+        margin-top: -125px;
+    }
 
     header, footer {
         border-radius: 15px;
