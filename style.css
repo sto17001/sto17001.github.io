@@ -1,6 +1,40 @@
-    header {
-        background-color: blue;
+    main {
+        margin: 0px 30px;
     }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-height: 120px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .self-portrait {
+        grid-column-start: 2;
+        margin: 25px 25px 0px 0px;
+    }
+
+    header, footer {
+        border-radius: 15px;
+        background-color: darkslategray;
+    }
+
+    h1 {
+        color:darkolivegreen;
+    }
+
+    h2 {
+        color:darkolivegreen;
+    }
+
+    ul li {
+        font-family:  'Lato', sans-serif;
+        line-height: 1.8em;
+     }
 
     footer {
         background-color: blue;
