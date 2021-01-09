@@ -20,16 +20,16 @@
 
     header, footer {
         border-radius: 15px;
-        background-color: darkslategray;
+        background-color: #DD403A;
     }
 
     h1 {
-        color:darkolivegreen;
+        color:#ADBDFF;
         text-align: center;
     }
 
     h2 {
-        color:darkolivegreen;
+        color:#ADBDFF;
     }
 
     ul li {
