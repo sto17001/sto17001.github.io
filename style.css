@@ -23,6 +23,12 @@
         grid-template-rows: 1fr 1fr;
     }
 
+    main {
+        margin-left: 100px;
+        margin-right: 100px;
+    
+    }
+    
     header, footer {
         border-radius: 15px;
         background-color: #DD403A;
