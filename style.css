@@ -16,6 +16,7 @@
     .self-portrait {
         grid-column-start: 2;
         margin: 25px 25px 0px 0px;
+        border-radius: 5px;
     }
 
     header, footer {
