@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 body{
     font-size: 18px;
     line-height: 1.5;
@@ -28,10 +30,12 @@ header, footer {
 h1 {
     color:black;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
     color:black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul li {
