@@ -8,12 +8,12 @@ header {
 }
 
 header h1 {
-    padding-top: 15px;
+    padding-top: 10px;
     margin: 0;
 }
 
 #content {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -65,5 +65,4 @@ div p, a {
 
 div img {
     max-width: 90%;
-    margin: 5%;
 }
