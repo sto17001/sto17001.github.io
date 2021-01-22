@@ -15,7 +15,6 @@ header h1 {
 #content {
     max-width: 1000px;
     margin: auto;
-    min-width: 900px;
 }
 
 body {
@@ -66,4 +65,5 @@ div p, a {
 
 div img {
     max-width: 90%;
+    margin: 5%;
 }
