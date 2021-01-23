@@ -93,7 +93,10 @@ nav a:hover {
 nav a:visited {
     color: #161413;
 }
-*/
+
+#footerLink {
+    color: #CCDBDC;
+}*/
 
 .logo-domain {
     float: left;
@@ -103,4 +106,40 @@ nav a:visited {
 
 .persona {
     padding: 1em;
+}
+
+#colorPalette {
+    max-width: 100%;
+}
+
+#textColor {
+    color: #161413;
+    padding: 1em;
+}
+#backgroundColor {
+    color: #CCDBDC;
+    background-color: #2D2D2D;
+    padding: 1em;
+}
+#accentColor1 {
+    color: #52489C;
+    padding: 1em;
+}
+#accentColor2 {
+    color: #FA9F42;
+    background-color: #2D2D2D;
+    padding: 1em;
+}
+#accentColor3 {
+    color: #A62639;
+    padding: 1em;
+}
+
+#fontSize {
+    background-color: #FA9F42;
+    padding: 2em;
+}
+
+#footerSize {
+    font-size: 0.8em;
 }
