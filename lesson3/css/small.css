@@ -101,7 +101,7 @@ nav a:visited {
 .logo-domain {
     float: left;
     padding: 2em;
-    max-height: 300px;
+    max-height: 100px;
 }
 
 .persona {
