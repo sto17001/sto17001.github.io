@@ -12,6 +12,10 @@ footer {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#footerSize {
+    font-size: 0.8em;
+}
+
 html {
     background-color: #588B8B;
 }
@@ -62,7 +66,32 @@ header h1 {
 
 header img {
     float: right;
+    padding: 10px;
     max-height: 95px;
     margin-top: -90px;
     margin-right: 10px;
+}
+
+img {
+    max-height: 95px;
+    margin-top: -90px;
+    margin-right: 10px;
+}
+
+#persona {
+    padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
 }
