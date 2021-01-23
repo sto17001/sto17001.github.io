@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+header,
+footer {
+    background-color:yellowgreen;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+    border: 1px solid #000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    background-color: #588B8B;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: yellowgreen;
+    border-radius: 15px;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+}
+
+p, a {
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+header h1 {
+    margin-right: 100px;
+}
+
+header img {
+    float: right;
+    max-height: 95px;
+    margin-top: -90px;
+    margin-right: 10px;
+}
