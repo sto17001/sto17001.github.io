@@ -1,28 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
 
-header,
-footer {
-    background-color:yellowgreen;
-    text-align: center;
-    color: white;
-    border-radius: 15px;
-    padding: 20px 0px 20px 0px;
-    border: 1px solid #000;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-header h1 {
-    padding-top: 10px;
-    margin: 0;
-}
-
-footer {
-    font-size: 0.8em;
-}
-
 html {
-    background-color: #588B8B;
+    background-color: steelblue;
 }
 
 body {
@@ -37,9 +17,13 @@ nav ul {
     list-style: none;
     background-color: yellowgreen;
     border-radius: 15px;
-    padding: 15px;
+}
+
+nav ul li {
+    flex: 1 1 auto;
     text-align: center;
     margin: auto;
+    padding: 15px;
 }
 
 h1 {
@@ -50,9 +34,24 @@ h2 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+p, a {
+    font-size: 1em;
+}
+
 nav a {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+header,
+footer {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #7e8f91;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
 }
 
 header h1 {
@@ -61,35 +60,91 @@ header h1 {
 
 header img {
     float: right;
-    padding: 10px;
     max-height: 95px;
     margin-top: -90px;
     margin-right: 10px;
 }
 
-img {
-    float: right;
-    padding: 2em;
-    max-height: 200px;
+main {
+    padding: 20px;
+    color: #161413;
 }
 
-#persona {
+/*a:link {
+    color: #52489C;
+}
+
+a:hover {
+    color: #161413;
+}
+
+a:visited {
+    color: #A62639;
+}
+
+nav a:link {
+    color: #52489C;
+}
+
+nav a:hover {
+    color: #A62639;
+}
+
+nav a:visited {
+    color: #161413;
+}
+
+#footerLink {
+    color: #CCDBDC;
+}
+
+#logo {
+    float: left;
+    padding: 2em;
+    max-height: 300px;
+}
+
+#logoInfo {
+    overflow: auto;
+}
+
+.persona {
+    background-color: #FA9F42;
     padding: 1em;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-nav li a {
-	display: block;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
+#colorPalette {
+    max-width: 100%;
 }
 
-ul li {
-    font-size: 1em;
+#textColor {
+    color: #161413;
+    padding: 1em;
+}
+#backgroundColor {
+    color: #CCDBDC;
+    background-color: #2D2D2D;
+    padding: 1em;
+}
+#accentColor1 {
+    color: #52489C;
+    padding: 1em;
+}
+#accentColor2 {
+    color: #FA9F42;
+    background-color: #2D2D2D;
+    padding: 1em;
+}
+#accentColor3 {
+    color: #A62639;
+    padding: 1em;
+}*/
+
+#fontSize {
+    background-color: #FA9F42;
+    padding: 2em;
+}
+
+#footerSize {
+    font-size: 0.8em;
 }
