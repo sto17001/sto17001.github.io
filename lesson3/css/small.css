@@ -61,7 +61,6 @@ header h1 {
 header img {
     float: right;
     max-height: 95px;
-    margin-top: -90px;
     margin-right: 10px;
 }
 
@@ -71,9 +70,9 @@ main {
 }
 
 img {
-    float: left;
+    float: right;
     padding: 2em;
-    max-height: 100px;
+    max-height: 200px;
 }
 
 .persona {
