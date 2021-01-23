@@ -96,9 +96,9 @@ nav a:visited {
 
 #footerLink {
     color: #CCDBDC;
-}
+}*/
 
-#logo {
+.logo {
     float: left;
     padding: 2em;
     max-height: 300px;
@@ -109,7 +109,6 @@ nav a:visited {
 }
 
 .persona {
-    background-color: #FA9F42;
     padding: 1em;
 }
 
@@ -138,7 +137,7 @@ nav a:visited {
 #accentColor3 {
     color: #A62639;
     padding: 1em;
-}*/
+}
 
 #fontSize {
     background-color: #FA9F42;
