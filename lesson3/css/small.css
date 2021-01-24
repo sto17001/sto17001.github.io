@@ -17,6 +17,7 @@ nav ul {
     list-style: none;
     background-color: yellowgreen;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -24,6 +25,7 @@ nav ul li {
     text-align: center;
     margin: auto;
     padding: 15px;
+    display: block;
 }
 
 h1 {
@@ -60,9 +62,7 @@ header h1 {
 
 header img {
     float: right;
-    max-height: 95px;
-    margin-top: -80px;
-    margin-right: 10px;
+
 }
 
 main {
