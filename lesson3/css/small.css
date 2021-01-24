@@ -65,6 +65,7 @@ header img {
     max-height: 95px;
     margin-top: -100px;
     margin-right: 10px;
+    display: inline;
 }
 
 main {
@@ -77,6 +78,7 @@ img {
     padding: 2em;
     max-height: 100px;
     margin-bottom: -80px;
+    display: inline;
 }
 
 .persona {
