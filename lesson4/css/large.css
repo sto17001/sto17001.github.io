@@ -1,11 +1,4 @@
-@media only screen and (min-width: 60em) {
-
-    nav a {
-        font-size: 1.1rem;
-    }
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+@media only screen and (min-width: 56em) {
 
     nav button {
         display: none;
@@ -14,7 +7,6 @@
     nav ul li {
         justify-content: space-evenly;
         flex: 1 1 100%;
-        float: left;
     }
   
     nav ul li a {

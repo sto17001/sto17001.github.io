@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 32.5em) {
     nav ul { flex-direction: row; }
     h1 {
         font-size: 2rem;
@@ -10,6 +10,10 @@
     
       main, footer {
         font-size: 1rem;
+      }
+
+      .content{
+          background-color: whitesmoke;
       }
     
 }
