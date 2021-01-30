@@ -99,6 +99,7 @@ header img {
     width: 100px;
     height: auto;
     grid: display;
+    padding: .5em;
 }
 
 main {
