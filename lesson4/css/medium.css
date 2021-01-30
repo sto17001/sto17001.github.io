@@ -15,5 +15,12 @@
       .content{
           background-color: whitesmoke;
       }
+
+      header img {
+        float: right;
+        width: 90px;
+        height: auto;
+        padding: .5em;
+    }
     
 }
