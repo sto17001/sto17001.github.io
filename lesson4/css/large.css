@@ -6,4 +6,20 @@
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    nav button {
+        display: none;
+    }
+  
+    nav ul li {
+        justify-content: space-evenly;
+        flex: 1 1 100%;
+        float: left;
+    }
+  
+    nav ul li a {
+        border-right: 1px solid #161032;
+        padding: .6rem 1rem;
+        border: none;
+    }
 }

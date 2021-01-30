@@ -25,6 +25,10 @@ nav ul.hide {
     display: none;
 }
 
+nav ul li a:hover {
+    background-color: steelblue;
+}
+
 nav button {
     background-color: transparent;
     color: var(--cultured-color);
@@ -52,13 +56,13 @@ h2 {
 }
 
 .content {
-    text-align: center;
     display: block;
     margin: 10px auto;
     border: 1px dashed;
     padding: 15px;
-    background-color: #eee;
+    background-color:yellowgreen;
     color:#444;
+    font-style: italic;
 }
 
 p, a {
@@ -95,23 +99,4 @@ header img {
 main {
     padding: 20px;
     color: black;
-}
-
-img {
-    float: right;
-    padding: 2em;
-    width: 100px;
-    height: auto;
-}
-
-.persona {
-    padding: 1em;
-}
-
-#rob{
-    font-family: 'Roboto Condensed', sans-serif; 
-}
-
-#mon{
-    font-family: 'Montserrat', sans-serif;
 }
