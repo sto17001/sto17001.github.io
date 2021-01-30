@@ -11,4 +11,11 @@
     nav ul.hide {
         display:flex;
     }
+
+    header img {
+        float: right;
+        width: 100px;
+        height: auto;
+        padding: .5em;
+    }
 }
