@@ -96,7 +96,6 @@ header h1 {
 
 header img {
     float: right;
-    padding: .5em;
     width: 100px;
     height: auto;
     grid: display;
