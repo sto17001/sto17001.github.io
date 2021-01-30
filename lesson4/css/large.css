@@ -3,15 +3,8 @@
     nav button {
         display: none;
     }
-  
-    nav ul li {
-        justify-content: space-evenly;
-        flex: 1 1 100%;
-    }
-  
-    nav ul li a {
-        border-right: 1px solid #161032;
-        padding: .6rem 1rem;
-        border: none;
+
+    .content{
+        background-color: yellowgreen;
     }
 }

@@ -31,7 +31,6 @@ nav ul li a:hover {
 
 nav button {
     background-color: transparent;
-    color: var(--cultured-color);
     font-size: 1.6rem;
     padding: 10px;
     margin: 0 5px;
@@ -94,6 +93,7 @@ header img {
     padding: 2em;
     width: 100px;
     height: auto;
+    grid: display;
 }
 
 main {
