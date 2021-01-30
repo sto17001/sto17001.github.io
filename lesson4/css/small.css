@@ -48,6 +48,17 @@ h1 {
 
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed;
+    padding: 15px;
+    background-color: #eee;
+    color:#444;
 }
 
 p, a {
