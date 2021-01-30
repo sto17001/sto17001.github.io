@@ -29,6 +29,12 @@ nav ul li a:hover {
     background-color: steelblue;
 }
 
+.clear:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
 nav button {
     background-color: transparent;
     font-size: 1.6rem;
@@ -90,7 +96,7 @@ header h1 {
 
 header img {
     float: right;
-    padding: 2em;
+    padding: 1em;
     width: 100px;
     height: auto;
     grid: display;
