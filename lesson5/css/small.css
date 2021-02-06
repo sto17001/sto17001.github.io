@@ -69,7 +69,7 @@ h2 {
 .content {
     margin: 15px;
     border: 1px dashed;
-    padding: 15px;
+    padding: 20px;
     background-color:yellowgreen;
     color:#444;
     font-style: italic;
@@ -95,12 +95,8 @@ h2 {
     opacity: .9;
 }
 
-.forecast {
-    display: none;
-}
-
 .forecast img{
-    width: 75px;
+    width: 100px;
     height: auto; 
 }
 
@@ -149,11 +145,11 @@ main {
 #contact {
     color:white;  
     padding: 15px;
-    text-align: left;
+    text-align: right;
 }
 
 footer img{
     float: left;
-    width:100px;
+    width:75%;
     height: auto;
 }
