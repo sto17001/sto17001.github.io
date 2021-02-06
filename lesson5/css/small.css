@@ -70,15 +70,28 @@ h2 {
     font-style: italic;
 }
 
+.summary {
+    position: relative;
+    overflow: hidden;
+}
+
 .summary img {
     max-width: 100%;
     border: 1px solid black;
 }
 
 .weather {
+    position:absolute;
+    top:25px;
+    left:25px;
     background-color: lightgrey;
     padding: 20px;
     margin: 10px 0 20px;
+    opacity: .9;
+}
+
+.forecast {
+    display: none;
 }
 
 .forecast img{
@@ -89,7 +102,7 @@ h2 {
 .content {
     border: 1px solid black;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .content img{
