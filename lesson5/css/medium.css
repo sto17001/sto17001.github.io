@@ -28,7 +28,7 @@
       text-align: center;
   }
   th {
-      background-color: #022b3a;
+      background-color: yellowgreen;
       color: white;
   }
   td,
@@ -44,5 +44,14 @@
   .forecast img {
       max-width: 90%;
   }
+
+  .content {
+    margin: 40px 0;
+}
+.content img {
+    width: 50%;
+    float: right;
+    margin: 0 0 20px 20px;
+}
     
 }
