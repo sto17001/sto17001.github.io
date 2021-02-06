@@ -8,3 +8,7 @@ b.getDate() + " " + month[b.getMonth()] + " " + b.getFullYear();
 function toggleMenu(){
     document.getElementById("nav-menu").classList.toggle("hide");
   }
+
+  if (b.getDay() == 5) {
+    document.getElementById("pancakes").style.display = "block";
+}
