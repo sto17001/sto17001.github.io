@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+html {
+    background-color: steelblue;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a:hover {
+    background-color: steelblue;
+}
+
+.clear:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+nav button {
+    background-color: transparent;
+    font-size: 1.6rem;
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    display: block;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.content {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed;
+    padding: 15px;
+    background-color:yellowgreen;
+    color:#444;
+    font-style: italic;
+}
+
+p, a {
+    font-size: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header,
+footer {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+header h1 {
+    margin-right: 100px;
+}
+
+header img {
+    float: right;
+    width: 75px;
+    height: auto;
+    padding: .5em;
+}
+
+main {
+    padding: 20px;
+    color: black;
+}
