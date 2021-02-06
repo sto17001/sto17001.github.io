@@ -22,4 +22,8 @@
     .summary {
         margin: 10px auto;
     }
+
+    .forecast h3 {
+        margin-bottom: 20px;
+    }
 }

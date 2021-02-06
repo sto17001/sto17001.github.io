@@ -95,9 +95,8 @@ h2 {
     opacity: .9;
 }
 
-.forecast img{
-    width: 100px;
-    height: auto; 
+.forecast {
+    display:none; 
 }
 
 .content img{
@@ -150,6 +149,6 @@ main {
 
 footer img{
     float: left;
-    width:75%;
+    width:50%;
     height: auto;
 }
