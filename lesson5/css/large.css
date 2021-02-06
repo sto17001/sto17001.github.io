@@ -18,4 +18,8 @@
         height: auto;
         padding: .5em;
     }
+
+    .summary {
+        margin: 10px auto;
+    }
 }

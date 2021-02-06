@@ -11,6 +11,12 @@ body {
     margin: 0 auto;
 }
 
+#pancakes{
+    display:none;
+    padding: 15px;
+    color: white;
+}
+
 nav ul {
     display: flex;
     flex-direction: column;
@@ -61,8 +67,7 @@ h2 {
 }
 
 .content {
-    display: block;
-    margin: 10px auto;
+    margin: 15px;
     border: 1px dashed;
     padding: 15px;
     background-color:yellowgreen;
@@ -99,12 +104,6 @@ h2 {
     height: auto; 
 }
 
-.content {
-    border: 1px solid black;
-    padding: 20px;
-    margin: 20px;
-}
-
 .content img{
     max-width: 90%;
     border: 1px solid black;
@@ -136,7 +135,7 @@ header h1 {
 }
 
 header img {
-    margin:auto;
+    float:right;
     width: 75px;
     height: auto;
     display:block;
@@ -155,4 +154,6 @@ main {
 
 footer img{
     float: left;
+    width:100px;
+    height: auto;
 }
