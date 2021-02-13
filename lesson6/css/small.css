@@ -134,6 +134,7 @@ header img {
     width: 75px;
     height: auto;
     display:block;
+    background: transparent;
 }
 
 main {
