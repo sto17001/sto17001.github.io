@@ -13,11 +13,11 @@ const imgOptions = {
 
 
 if('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver((items, imgObserver) => {
+    const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
         if(item.isIntersecting) {
           loadImages(item.target);
-          imgObserver.unobserve(item.target);
+          observer.unobserve(item.target);
         }
       });
     });
