@@ -115,10 +115,10 @@ footer img{
     padding: 10px;
 }
 
-.gallery picture:hover{
-    box-shadow: 0 0 10px yellowgreen;
-}
-
 picture img {
     width: 100%;
+}
+
+p {
+    font-size: 14px;
 }
