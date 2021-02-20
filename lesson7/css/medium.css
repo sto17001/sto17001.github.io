@@ -24,7 +24,7 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
         padding: 10px;
-        grid-row: 3rem;
+        row-gap: 3rem;
     }
 
     p {
