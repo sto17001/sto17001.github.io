@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em) {
+    nav ul { flex-direction: row; }
+    h1 {
+        font-size: 2rem;
+      }
+    
+      h2 {
+        font-size: 1.5rem;
+      }
+    
+      main, footer {
+        font-size: 1rem;
+      }
+
+      header img {
+        float: right;
+        width: 90px;
+        height: auto;
+        padding: .5em;
+    }
+    
+}
