@@ -116,7 +116,7 @@ footer img{
 }
 
 .gallery picture:hover{
-    box-shadow: steelblue;
+    box-shadow: 0 0 10px steelblue;
 }
 
 picture img {

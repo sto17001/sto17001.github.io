@@ -14,4 +14,11 @@
         height: auto;
         padding: .5em;
     }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        padding-bottom: 10px;
+    }
 }
