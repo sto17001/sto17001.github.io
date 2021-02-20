@@ -25,6 +25,7 @@
         align-items: center;
         padding: 10px;
         row-gap: 3rem;
+        column-gap: 3rem;
     }
 
     p {
