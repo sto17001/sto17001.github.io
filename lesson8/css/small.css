@@ -185,7 +185,7 @@ form fieldset {
 }
 
 form legend {
-    color: steelblue;
+    color: white;
     position: relative;
     padding: 10px;
     font-weight: bold;
@@ -203,7 +203,7 @@ form label.top input, form label.top select, form label.top textarea {
     border: 1px solid steelblue;
     border-radius: 4px;
     padding: 10px;
-    color: var(--brown-color);
+    color: grey;
     box-sizing: border-box;
     width: 100%;
 }
@@ -216,8 +216,8 @@ form label.sbs {
 
 form input.submitButton {
   display: block;
-  background-color: steelblue;
-  color: grey;
+  background-color: grey;
+  color: steelblue;
   border-radius: .5rem;
   padding: 10px;
   width: 200px;
