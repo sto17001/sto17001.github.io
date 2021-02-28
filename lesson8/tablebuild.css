@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
-.formBox{
-    padding: 0.5rem 0;
-    display: flex;
-    flex-direction: column;
-}
 
-tbody{
+body{
     font-family: 'Ubuntu', sans-serif;
-}
-
-.formBox input{
-    color: black;
-    background-color:#e7f0ed ;
-}
-
-.formBox label{
-    color: white;
-    background-color:#628ca6 ;
 }
