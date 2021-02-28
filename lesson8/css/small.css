@@ -166,3 +166,79 @@ footer img {
 picture img {
     width: 100%;
 }
+
+.mainContent {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent h2 {
+    margin: 30px;
+}
+
+form fieldset {
+    margin: 3rem 0;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+form legend {
+    color: steelblue;
+    position: relative;
+    padding: 10px;
+    font-weight: bold;
+}
+
+form label.top, form div {
+    display: block;
+    margin-bottom: 20px;
+    color: dimgray;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid steelblue;
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--brown-color);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+form label.sbs {
+  display: block;
+  padding: .1rem 0;
+  color: var(--dark-75);
+}
+
+form input.submitButton {
+  display: block;
+  background-color: steelblue;
+  color: grey;
+  border-radius: .5rem;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+}
+
+form input.submitButton:hover {
+    background-color: yellowgreen;
+}
+
+form label.top input:required{
+    border-left: red solid 4px;
+}
+
+form label.rating input {
+    display: block;
+    width: 100%;
+    margin: 20px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 300px;
+}

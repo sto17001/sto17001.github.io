@@ -31,8 +31,8 @@
             <li><a href="preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -45,7 +45,8 @@
                     <label class="top">Full Name* <input type="text" name="fName" pattern="[\sA-Za-z]{5,}"
                             required></label>
                     <label class="top">Email <input type="email" name="email" placeholder="123me@gmail.com"></label>
-                    <label class="top">Phone* <input type="tel" name="phone" placeholder="208-555-5555" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="208-555-5555"
+                            required></label>
                     <label class="top">Zip Code <input type="number" name="zip" required></label>
                 </fieldset>
                 <fieldset>
@@ -62,7 +63,7 @@
                         </datalist>
                     </label>
 
-                    <label class="top">Storm Severity: <span id="ratingvalue">5</span>
+                    <label class="rating">Storm Severity: <span id="ratingvalue">5</span>
                         <input name="stormSeverity" type="range" value="5" min="1" max="10" step="1" list="tickmarks"
                             oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 
@@ -94,20 +95,20 @@
                 </fieldset>
 
 
-                <div class="bottom">
-                    <fieldset>
-                        <legend>Other Information</legend>
-                        <div>Are you in danger?</div>
-                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
-                        <br>
-                        <label class="top">Comments
-                            <textarea name="comments" rows="5"
-                                placeholder="Please include any other details here"></textarea></label>
-                    </fieldset>
-                    <input class="submitButton" type="submit" value="Submit Report">
-                </div>
+
+                <fieldset>
+                    <legend>Other Information</legend>
+                    <div>Are you in danger?</div>
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                    <br>
+                    <label class="top">Comments
+                        <textarea name="comments" rows="5"
+                            placeholder="Please include any other details here"></textarea></label>
+                </fieldset>
+                <input class="submitButton" type="submit" value="Submit Report">
+
 
 
             </form>
