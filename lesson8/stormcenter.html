@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>When will there be Good Weather: Preston, Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tyler Stowell">
+    <meta name="description" content="Preston, Idaho weather page for weather website.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div id="pancakes">
+            <p>Saturday = Pancakes in the Park!
+                <br>9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <img src="images/weatherlogo.png" alt="logo for website">
+        <h1>When will there be Good Weather?</h1>
+        <div>Here for all of your weather needs!</div>
+    </header>
+    <nav class="clear">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="nav-menu" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="mainContent">
+            <h2>Report a Storm</h2>
+
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fName" pattern="[\sA-Za-z]{5,}"
+                            required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="123me@gmail.com"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="208-555-5555" required></label>
+                    <label class="top">Zip Code <input type="number" name="zip" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm Date <input type="date" name="stormDate"></label>
+
+                    <label class="top">Storm type <input list="stormType" name="stormType">
+                        <datalist id="typeOfStorm">
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Flash Flood"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+                    </label>
+
+                    <label class="top">Storm Severity: <span id="ratingvalue">5</span>
+                        <input name="stormSeverity" type="range" value="5" min="1" max="10" step="1" list="tickmarks"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+
+                    </label>
+                    <datalist id="severityLevel">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+
+                    <label class="top">Storm Region
+                        <select name="stormRegion">
+                            <option>Select Region</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                        </select>
+                    </label>
+
+
+                </fieldset>
+
+
+                <div class="bottom">
+                    <fieldset>
+                        <legend>Other Information</legend>
+                        <div>Are you in danger?</div>
+                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                        <br>
+                        <label class="top">Comments
+                            <textarea name="comments" rows="5"
+                                placeholder="Please include any other details here"></textarea></label>
+                    </fieldset>
+                    <input class="submitButton" type="submit" value="Submit Report">
+                </div>
+
+
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <img src="images/prestonmap.png" alt="Preston Map">
+        <div id="contact">
+            <h3>When Will There be Good Weather</h3>
+            <p>Address: 111 S 22 W
+                Preston, ID 83440</p>
+            <p>Phone: (208) 123-4567</p>
+            <p>Email: GoodWeather@Weather.com</p>
+        </div>
+        <br>
+        <p>&copy; When will there be Good Weather | Attributions | Tyler B. Stowell</p>
+        <div id="date"></div>
+        <script src="js/script.js"></script>
+        <script src="js/imagehandling.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Open Sans:300,400,600,700', 'Roboto Slab:300,400,500,600,800,900'
+                    ]
+                }
+            });
+        </script>
+    </footer>
+</body>
+
+</html>
