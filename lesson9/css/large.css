@@ -1,4 +1,4 @@
-@media only screen and (min-width: 56em) {
+@media only screen and (min-width: 60em) {
 
     nav button {
         display: none;
@@ -63,7 +63,6 @@
     section img {
         margin-bottom: 0;
         width: 100%;
-        padding:10px
     }
     section div {
         height: 190px;
@@ -73,5 +72,9 @@
     section h2 {
         margin-top: 0;
         font-size: 2rem;
+    }
+
+    section p{
+        font-size: .8rem;
     }
 }
