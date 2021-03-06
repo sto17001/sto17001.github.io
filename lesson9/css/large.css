@@ -48,4 +48,11 @@
     .gallery picture:hover {
         box-shadow: 0 0 10px yellowgreen;
     }
+
+    .townCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
 }
