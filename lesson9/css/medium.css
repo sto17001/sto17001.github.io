@@ -80,13 +80,13 @@
         width: 50%;
     }
     section div {
-        padding: 5% 5px;
+        padding: 5px;
         width: 50%;
     }
 
     section {
         display: flex;
-        margin: 2% auto;
+        margin: auto;
         max-width: 600px;
     }
 }
