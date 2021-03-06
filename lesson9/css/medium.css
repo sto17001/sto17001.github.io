@@ -75,4 +75,18 @@
         row-gap: 3rem;
         column-gap: 3rem;
     }
+
+    section img {
+        width: 50%;
+    }
+    section div {
+        padding: 5% 5px;
+        width: 50%;
+    }
+
+    section {
+        display: flex;
+        margin: 2% auto;
+        max-width: 600px;
+    }
 }

@@ -55,4 +55,22 @@
         row-gap: 2rem;
         column-gap: 2rem;
     }
+
+    section {
+        display: block;
+        margin: 0;
+    }
+    section img {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    section div {
+        height: 170px;
+        padding: 0;
+        width: 100%;
+    }
+    section h2 {
+        margin-top: 0;
+        font-size: 2rem;
+    }
 }

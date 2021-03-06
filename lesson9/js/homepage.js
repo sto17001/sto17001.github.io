@@ -16,7 +16,7 @@ fetch(requestURL)
             let card = document.createElement('section');
             let div = document.createElement('div');
             let h2 = document.createElement('h2');
-            let p1 = document.createElement('h3');
+            let p1 = document.createElement('p');
             let p2 = document.createElement('p');
             let p3 = document.createElement('p');
             let p4 = document.createElement('p');
