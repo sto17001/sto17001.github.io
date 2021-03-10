@@ -12,9 +12,10 @@ tr {
     background-color: #e7f0ed;
 }
 
-h2{
-    color: black;
-    background-color: #7fb9c2 ;
+thead tr th { 
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #7fb9c2;
 }
 
 th, td {
