@@ -2,6 +2,10 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    max-width: 25rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 th{
@@ -14,16 +18,33 @@ h2{
     background-color: #7fb9c2 ;
 }
 
-.footer{
-    color: black;
-    background-color:  #7fb9c2;
-}
-
 table{
     box-shadow:  #7fb9c2;
+    width: 18rem;
+    border-collapse: collapse;
 }
 
 table, th, td {
     border: 1px solid gray;
     padding: 10px;
   }
+
+  .emphasize {
+    color: #fff;
+    background-color: #628ca6;
+}
+
+table {
+    width: 18rem;
+    border-collapse: collapse;
+    box-shadow: 5px 10px 18px #628ca6;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+tfoot tr td{
+    font-size: 0.7rem;
+    background-color: #7fb9c2;
+}
