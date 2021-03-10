@@ -8,9 +8,8 @@ body{
     padding: 10px;
 }
 
-th{
-    color:white;
-    background-color:  #628ca6;
+tr {
+    background-color: #e7f0ed;
 }
 
 h2{
@@ -18,14 +17,8 @@ h2{
     background-color: #7fb9c2 ;
 }
 
-table{
-    box-shadow:  #7fb9c2;
-    width: 18rem;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid gray;
+th, td {
+    border: 1px #c0c0c0;
     padding: 10px;
   }
 
