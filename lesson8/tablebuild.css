@@ -13,17 +13,17 @@ tr {
 }
 
 thead tr th { 
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 10px;
     background-color: #7fb9c2;
 }
 
 th, td {
-    border: 1px #c0c0c0;
+    border: 1px darkgray;
     padding: 10px;
   }
 
-  .emphasize {
+  .detail {
     color: #fff;
     background-color: #628ca6;
 }
@@ -41,4 +41,10 @@ tr:nth-child(odd) {
 tfoot tr td{
     font-size: 0.7rem;
     background-color: #7fb9c2;
+}
+
+tbody tr th {
+    color: #fff;
+    font-size: 1rem;
+    background-color: #628ca6;
 }
