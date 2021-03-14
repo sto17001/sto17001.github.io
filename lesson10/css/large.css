@@ -24,11 +24,6 @@
         width: 100%;
     }
 
-    .forecast{
-        display: inline;
-        text-align: center;
-    }
-
     .forecast h3 {
         margin-bottom: 20px;
     }
