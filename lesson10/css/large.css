@@ -28,6 +28,10 @@
         margin-bottom: 20px;
     }
 
+    .forecast{
+        width: 100%;
+    }
+
     .content {
         margin: 80px 0 120px;
     }
