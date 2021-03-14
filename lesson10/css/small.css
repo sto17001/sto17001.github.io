@@ -135,7 +135,7 @@ header img {
     width: 75px;
     height: auto;
     display: block;
-    background: transparent;
+    background-color: transparent;
 }
 
 main {
