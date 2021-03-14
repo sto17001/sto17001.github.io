@@ -7,16 +7,16 @@ fetch(apiURL)
         document.getElementById("humidity").textContent = jsObject.main.humidity;
         document.getElementById("windSpeed").textContent = jsObject.wind.speed;
 
-        let temperature = parseFloat(jsObject.main.temp);
+        let currentTemperature = parseFloat(jsObject.main.temp);
         let windSpeed = parseFloat(jsObject.wind.speed);
-        if (temperature <= 50.0 && windSpeed > 3.0) {
-            document.getElementById("windChillOutput").innerHTML = windChill(currentTemperature, windSpeed).toFixed(0);
+        if (currentTemperature <= 50.0 && windSpeed > 3.0) {
+            document.getElementById("windChillOutput").innerHTML = windChill(currentTemperature, windSpeed);
         } else {
             document.getElementById("windChillOutput").innerHTML = "N/A";
         }
 
         function windChill(t, s) {
             let equation = (35.74) + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16));
-            return equation;
+            return equation.toFixed(0);
         }
     });
