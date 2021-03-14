@@ -24,13 +24,6 @@
         width: 100%;
     }
 
-    .forecast{
-        align-items: center;
-    }
-    
-    table{
-        align-items: center;
-    }
     .forecast h3 {
         margin-bottom: 20px;
     }
