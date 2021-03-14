@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>When will there be Good Weather: Preston, Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tyler Stowell">
+    <meta name="description" content="Preston, Idaho weather page for weather website.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div id="pancakes">
+            <p>Saturday = Pancakes in the Park!
+                <br>9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <img src="images/weatherlogo.png" alt="logo for website">
+        <h1>When will there be Good Weather?</h1>
+        <div>Here for all of your weather needs!</div>
+    </header>
+    <nav class="clear">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="nav-menu" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="gallery">
+            <picture><img data-src="images/bus.jpg" src="images/placeholderImage.jpg" alt="Bus driving in snow.">
+                <p>A bus in the snow.</p>
+            </picture>
+            <picture><img data-src="images/clouds.jpg" src="images/placeholderImage.jpg" alt="Clouds during a sunset.">
+                <p>Clouds glowing from the sun.</p>
+            </picture>
+            <picture><img data-src="images/lightning.jpg" src="images/placeholderImage.jpg" alt="Dark clouds with lightning.">
+                <p>Lightning in the dark.</p>
+            </picture>
+            <picture><img data-src="images/northernLights.jpg" src="images/placeholderImage.jpg" alt="The northern lights">
+                <p>The northern lights lighting up the sky.</p>
+            </picture>
+            <picture><img data-src="images/rainbow.jpg" src="images/placeholderImage.jpg" alt="A rainbow after it rains.">
+                <p>A rainbow after a storm.</p>
+            </picture>
+            <picture><img data-src="images/roadClouds.jpg" src="images/placeholderImage.jpg" alt="Stretch of road with clouds.">
+                <p>A stretch of road covered by dark clouds.</p>
+            </picture>
+            <picture><img data-src="images/snow.jpg" src="images/placeholderImage.jpg" alt="A snow storm.">
+                <p>A man walking during a snow storm.</p>
+            </picture>
+            <picture><img data-src="images/trees.jpg" src="images/placeholderImage.jpg" alt="Trees in the forest.">
+                <p>Trees in the dark forest.</p>
+            </picture>
+            <picture><img data-src="images/umbrellas.jpg" src="images/placeholderImage.jpg" alt="Umbreallas in the sky.">
+                <p>Umbrellas floating away in the sky.</p>
+            </picture>
+
+        </div>
+    </main>
+    <footer>
+        <img src="images/prestonmap.png" alt="Preston Map">
+        <div id="contact">
+            <h3>When Will There be Good Weather</h3>
+            <p>Address: 111 S 22 W
+                Preston, ID 83440</p>
+            <p>Phone: (208) 123-4567</p>
+            <p>Email: GoodWeather@Weather.com</p>
+        </div>
+        <br>
+        <p>&copy; When will there be Good Weather | Attributions | Tyler B. Stowell</p>
+        <div id="date"></div>
+        <script src="js/script.js"></script>
+        <script src="js/imagehandling.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Open Sans:300,400,600,700', 'Roboto Slab:300,400,500,600,800,900'
+                    ]
+                }
+            });
+        </script>
+    </footer>
+</body>
+
+</html>
