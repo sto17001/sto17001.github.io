@@ -264,13 +264,12 @@ section h2 {
 width: 100%;
 margin: 30px auto 35px;
 padding: 15px;
-border: 2px bold yellowgreen;
+background-color:yellowgreen;
 text-align:center;
 }
 
 .events li {
     list-style-type: none;
-    font-size: 1px;
     line-height: 1rem;
 }
 
