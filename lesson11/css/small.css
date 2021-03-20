@@ -87,10 +87,10 @@ h2 {
 
 .weather {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 15px;
+    left: 15px;
     background-color: lightgrey;
-    padding: 20px;
+    padding: .7rem;
     margin: 10px 0 20px;
     opacity: .9;
 }
