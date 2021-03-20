@@ -28,7 +28,8 @@
     }
 
     .forecast{
-        position: relative;
+        position: fixed;
+        align-content: center;
     }
 
     .content {
