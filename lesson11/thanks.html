@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>When will there be Good Weather: Preston, Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tyler Stowell">
+    <meta name="description" content="Preston, Idaho weather page for weather website.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div id="pancakes">
+            <p>Saturday = Pancakes in the Park!
+                <br>9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <img src="images/weatherlogo.png" alt="logo for website">
+        <h1>When will there be Good Weather?</h1>
+        <div>Here for all of your weather needs!</div>
+    </header>
+    <nav class="clear">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="nav-menu" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Thank you for reporting your storm</h1>
+        <p>We are looking into your area.</p>
+    </main>
+    <footer>
+        <img src="images/prestonmap.png" alt="Preston Map">
+        <div id="contact">
+            <h3>When Will There be Good Weather</h3>
+            <p>Address: 111 S 22 W
+                Preston, ID 83440</p>
+            <p>Phone: (208) 123-4567</p>
+            <p>Email: GoodWeather@Weather.com</p>
+        </div>
+        <br>
+        <p>&copy; When will there be Good Weather | Attributions | Tyler B. Stowell</p>
+        <div id="date"></div>
+        <script src="js/script.js"></script>
+        <script src="js/imagehandling.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Open Sans:300,400,600,700', 'Roboto Slab:300,400,500,600,800,900'
+                    ]
+                }
+            });
+        </script>
+    </footer>
+</body>
+
+</html>
