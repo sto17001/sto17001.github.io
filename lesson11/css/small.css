@@ -260,4 +260,11 @@ section h2 {
     margin: 0;
 }
 
+#prestonEvents{
+width: 100%;
+margin: 30px auto 35px;
+background-color: white;
+padding: 15px;
+}
+
 
