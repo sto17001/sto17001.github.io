@@ -79,4 +79,8 @@
     section p{
         font-size: .8rem;
     }
+
+    #prestonEvents{
+        width:50%;
+    }
 }
