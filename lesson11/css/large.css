@@ -82,6 +82,7 @@
 
     #prestonEvents{
         width:50%;
+        list-style-position: inside;
         text-align:center;
     }
 }
