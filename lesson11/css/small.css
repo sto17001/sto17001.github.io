@@ -260,11 +260,13 @@ section h2 {
     margin: 0;
 }
 
-#prestonEvents{
+.events{
 width: 100%;
 margin: 30px auto 35px;
 padding: 15px;
 border: 2px yellowgreen;
+list-style-position: inside;
+text-align:center;
 }
 
 

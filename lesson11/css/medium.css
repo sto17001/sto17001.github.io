@@ -89,4 +89,8 @@
         margin: auto;
         max-width: 600px;
     }
+
+    .events{
+        width:75%;
+    }
 }

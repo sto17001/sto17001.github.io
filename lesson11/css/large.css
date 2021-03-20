@@ -80,9 +80,7 @@
         font-size: .8rem;
     }
 
-    #prestonEvents{
+    .events{
         width:50%;
-        list-style-position: inside;
-        text-align:center;
     }
 }
