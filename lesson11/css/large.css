@@ -28,8 +28,8 @@
     }
 
     .forecast{
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        margin: 20px 0 50px;
     }
 
     .content {
