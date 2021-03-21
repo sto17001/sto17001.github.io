@@ -266,6 +266,9 @@ text-align:center;
     line-height: 1.5rem;
 }
 
-footer{
-    text-align: center;
+footer img {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 10px;
 }
