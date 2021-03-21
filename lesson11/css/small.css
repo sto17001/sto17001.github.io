@@ -150,10 +150,7 @@ main {
 }
 
 footer img {
-    float: left;
-    width: 50%;
-    height: auto;
-    padding: 10px;
+    display: none;
 }
 
 .gallery {

@@ -88,4 +88,8 @@
     .events{
         width:75%;
     }
+
+    footer img{
+        display: none;
+    }
 }
