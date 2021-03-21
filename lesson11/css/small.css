@@ -145,10 +145,6 @@ main {
     text-align: right;
 }
 
-footer img {
-    display: none;
-}
-
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
