@@ -48,7 +48,7 @@
         box-shadow: 0 0 10px #A3B4A2;
     }
 
-    .townCard {
+    .adCard {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 2rem;
