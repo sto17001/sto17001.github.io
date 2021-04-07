@@ -1,0 +1,91 @@
+@media only screen and (min-width: 32.5em) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    main,
+    footer {
+        font-size: 1rem;
+    }
+
+    .content {
+        background-color: #F8F8FF;
+    }
+
+    header img {
+        float: right;
+        width: 90px;
+        height: auto;
+        padding: .5em;
+    }
+
+    .forecast {
+        display: inline;
+        text-align: center;
+    }
+
+    th {
+        background-color: #A3B4A2;
+        color: black;
+    }
+
+    td,
+    th,
+    table {
+        border: 1px solid #3B2F2F;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+
+    .forecast h3 {
+        margin-bottom: 5px;
+    }
+
+    .forecast img {
+        max-width: 90%;
+    }
+
+    .content {
+        margin: 40px 0;
+    }
+
+    .content img {
+        width: 50%;
+        float: right;
+        margin: 0 0 20px 20px;
+    }
+
+    .summary {
+        width: 100%;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section img {
+        width: 50%;
+    }
+    section div {
+        padding: 5px;
+        width: 50%;
+    }
+
+    section {
+        display: flex;
+        margin: auto;
+        max-width: 600px;
+    }
+
+    .events{
+        width:75%;
+    }
+}

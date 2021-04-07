@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>When will there be Good Weather: Preston, Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tyler Stowell">
+    <meta name="description" content="Preston, Idaho weather page for weather website.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div id="pancakes">
+            <p>Saturday = Pancakes in the Park!
+                <br>9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <img src="images/weatherSiteLogo.png" alt="logo for website">
+        <h1>When Will There Be Good Weather?</h1>
+        <div>Here for all of your weather needs!</div>
+    </header>
+    <nav class="clear">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="nav-menu" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+       <h2>Meet our Idaho Towns</h2>
+
+       <div class="townCard"></div>
+
+        <div class="content">
+            <img src="images/pexels-sindre-strøm-1144176.jpg" alt="Idaho Photo">
+            <h3>The Great State of Idaho</h3>
+            <p>By Ian Isle</p>
+            <p>Idaho is one of the most unique states in the US. Things went according to plan. Everyone was as happy as could be.
+                There was corndogs, cotton candy, popcorn,
+                and much more. If you missed out on the fun, there will be another parade coming up on the 1st of next
+                month. The highlight of the day was the marching band!
+                Eventhough it was snowing they still played their hearts out and marched through the 5 feet of snow that
+                was covering the road. Most of the event was enclosed
+                to keep everyone warm, but the marching band was spectacular out in the snow. The mayor of the town said
+                that it was the most courageous thing he has ever seen
+                in his entire life. That is saying something, considering our mayor has served in the army. Alright
+                that's my article.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <img src="images/prestonmap.png" alt="Preston Map">
+        <div id="contact">
+            <h3>When Will There be Good Weather</h3>
+            <p>Address: 111 S 22 W
+                Preston, ID 83440</p>
+            <p>Phone: (208) 123-4567</p>
+            <p>Email: GoodWeather@Weather.com</p>
+        </div>
+        <br>
+        <p>&copy; When will there be Good Weather | Attributions | Tyler B. Stowell</p>
+        <div id="date"></div>
+        <script src="js/script.js"></script>
+        <script src="js/imagehandling.js"></script>
+        <script src="js/stormcenter.js"></script>
+        <script src="js/homepage.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Open Sans:300,400,600,700', 'Roboto Slab:300,400,500,600,800,900'
+                    ]
+                }
+            });
+        </script>
+    </footer>
+</body>
+
+</html>

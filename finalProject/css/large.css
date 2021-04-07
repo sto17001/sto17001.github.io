@@ -1,0 +1,83 @@
+@media only screen and (min-width: 60em) {
+
+    nav button {
+        display: none;
+    }
+
+    .content {
+        background-color: #A3B4A2;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    header img {
+        float: right;
+        width: 100px;
+        height: auto;
+        padding: .5em;
+    }
+
+    .summary {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    table{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin: 80px 0 120px;
+    }
+
+    .content img {
+        width: 40%;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 3rem;
+        column-gap: 3rem;
+    }
+
+    .gallery picture:hover {
+        box-shadow: 0 0 10px #A3B4A2;
+    }
+
+    .townCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    section {
+        display: block;
+        margin: 0;
+    }
+    section img {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    section div {
+        height: 190px;
+        padding: 0;
+        width: 100%;
+    }
+    section h2 {
+        margin-top: 0;
+        font-size: 2rem;
+    }
+
+    section p{
+        font-size: .8rem;
+    }
+
+    .events{
+        width:50%;
+    }
+}
