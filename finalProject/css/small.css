@@ -142,7 +142,7 @@ main {
 #contact {
     color: #3B2F2F;
     padding: 15px;
-    text-align: right;
+    text-align: center;
 }
 
 .gallery {
@@ -260,11 +260,4 @@ text-align:center;
     text-align: center;
     list-style-type: none;
     line-height: 1.5rem;
-}
-
-footer img {
-    float: left;
-    width: 50%;
-    height: auto;
-    padding: 10px;
 }
