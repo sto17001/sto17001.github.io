@@ -2,7 +2,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=43.8231&lon=
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        document.getElementById("currentWeather").textContent = jsObject.current.description;
+        document.getElementById("currentWeather").textContent = jsObject.current.weather.description;
         document.getElementById("currentTemperature").textContent = jsObject.current.temp;
         document.getElementById("humidity").textContent = jsObject.current.humidity;
     });
@@ -14,7 +14,7 @@ fetch(apiURLforecast)
         const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
         for (let day = 0; day <= 2; day++) {
-            let d = new Date(weather.day);
+            let d = new Date(daily.day);
             document.getElementById(`dayOfWeek${day+1}`).textContent = dayOfWeek[d.getDay()];
             document.getElementById(`forecastTemperature${day+1}`).textContent = daily.temp.day;
 
