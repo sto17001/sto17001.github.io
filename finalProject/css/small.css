@@ -131,6 +131,7 @@ header img {
     height: auto;
     margin: auto;
     display: inline-block;
+    align-items: center;
 }
 
 main {
