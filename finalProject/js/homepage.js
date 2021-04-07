@@ -14,7 +14,7 @@ fetch(apiURLforecast)
         const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
         let newList = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
-        for (let day = 0; day <= 4; day++) {
+        for (let day = 0; day <= 2; day++) {
             let d = new Date(newList[day].dt_txt);
             document.getElementById(`dayOfWeek${day+1}`).textContent = dayOfWeek[d.getDay()];
             document.getElementById(`forecastTemperature${day+1}`).textContent = newList[day].main.temp;
