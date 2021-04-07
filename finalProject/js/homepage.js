@@ -1,36 +1,28 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=43.8231&lon=-111.7924&exclude=hourly,minutely,daily,alerts&appid=bb98ec60049766ba796288b29310adc3&units=imperial";
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        document.getElementById("currentWeather").textContent = jsObject.weather[0].description;
+        document.getElementById("currentTemperature").textContent = jsObject.current.temp;
+        document.getElementById("humidity").textContent = jsObject.current.humidity;
+    });
 
+const apiURLforecast = "https://api.openweathermap.org/data/2.5/onecall?lat=43.8231&lon=-111.7924&exclude=hourly,minutely,current,alerts&appid=bb98ec60049766ba796288b29310adc3&units=imperial";
+fetch(apiURLforecast)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+        let newList = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
-fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
+        for (let day = 0; day <= 4; day++) {
+            let d = new Date(newList[day].dt_txt);
+            document.getElementById(`dayOfWeek${day+1}`).textContent = dayOfWeek[d.getDay()];
+            document.getElementById(`forecastTemperature${day+1}`).textContent = newList[day].main.temp;
 
-        const towns = jsonObject['towns'];
-        const townCard = document.querySelector('.townCard');
-        const townCardFilter = towns.filter(town => town.name == "Preston" || town.name == "Fish Haven" || town.name == "Soda Springs");
+            const imgalt = newList[day].weather[0].description;
+            const imagsrc = 'https://openweathermap.org/img/wn/' + newList[day].weather[0].icon + '@2x.png';
+            document.getElementById(`icon${day+1}`).setAttribute('src', imagsrc);
+            document.getElementById(`icon${day+1}`).setAttribute('alt', imgalt);
+        }
 
-        townCardFilter.forEach(town => {
-
-            let card = document.createElement('section');
-            let div = document.createElement('div');
-            let h2 = document.createElement('h2');
-            let p1 = document.createElement('p');
-            let p2 = document.createElement('p');
-            let p3 = document.createElement('p');
-            let p4 = document.createElement('p');
-            let image = document.createElement('img');
-
-            h2.innerHTML = `${town.name}`;
-            p1.innerHTML = `${town.motto}`;
-            p2.innerHTML = `Year Founded: ${town.yearFounded}`;
-            p3.innerHTML = `Population: ${town.currentPopulation}`;
-            p4.innerHTML = `Annual Rain Fall: ${town.averageRainfall}`;
-            image.setAttribute('src', `images/` + town.photo);
-            image.setAttribute('alt', `${town.name} image`);
-            div.append(h2, p1, p2, p3, p4);
-            card.append(div, image);
-            townCard.append(card);
-        });
     });

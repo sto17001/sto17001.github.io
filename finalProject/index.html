@@ -32,6 +32,46 @@
         </ul>
     </nav>
     <main>
+        <h2>Rexburg, Idaho</h2>
+        <div class="summary">
+            <picture>
+                <source srcset="images/heroFishHavenSmall.jpg" media= "(max-width: 30em)">
+                <source srcset="images/heroFishHavenMedium.jpg" media= "(max-width:55.5em)">
+                <source srcset="images/heroFishHavenLarge.jpg" media= "(min-width:56em)">    
+                <img src="images/heroFishHaven.jpg" alt="Hero image">
+            </picture>
+            <div class="weather">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="currentWeather"></span></p>
+                <p>Temperature: <span id="currentTemperature"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+            </div>
+        </div>
+
+        <div class="forecast">
+            <h3>3 Day Forecast</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <th id="dayOfWeek1"></th>
+                        <th id="dayOfWeek2"></th> 
+                        <th id="dayOfWeek3"></th>
+                    </tr>
+                    <tr>
+                        <td><img id="icon1" src="" alt="">
+                            <p><span id="forecastTemperature1"></span>&#176;F</p>
+                        </td>
+                        <td><img id="icon2" src="" alt="">
+                            <p><span id="forecastTemperature2"></span>&#176;F</p>
+                        </td>
+                        <td><img id="icon3" src="" alt="">
+                            <p><span id="forecastTemperature3"></span>&#176;F</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
         <h2>Local Companies</h2>
 
         <div class="adCard">
@@ -94,8 +134,6 @@
         <p>&copy; Rexburg Area Chamber of Commerce |  <a href="http://rexburgchamber.org/">Some Information Provided by rexburgchamber.org</a> | Tyler B. Stowell</p>
         <div id="date"></div>
         <script src="js/script.js"></script>
-        <script src="js/imagehandling.js"></script>
-        <script src="js/stormcenter.js"></script>
         <script src="js/homepage.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
