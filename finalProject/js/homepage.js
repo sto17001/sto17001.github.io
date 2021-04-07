@@ -13,10 +13,10 @@ fetch(apiURLforecast)
     .then((jsObject) => {
         const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
-        for (let day = 0; day <= 4; day++) {
+        for (let day = 0; day <= 2; day++) {
             let d = new Date(day);
             document.getElementById(`dayOfWeek${day+1}`).textContent = dayOfWeek[d.getDay()];
-            document.getElementById(`forecastTemperature${day+1}`).textContent = day.main.temp;
+            document.getElementById(`forecastTemperature${day+1}`).textContent = daily.temp.day;
 
             const imgalt = day.weather[0].description;
             const imagsrc = 'https://openweathermap.org/img/wn/' + day.weather[0].icon + '@2x.png';
