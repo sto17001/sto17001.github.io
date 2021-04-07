@@ -130,8 +130,7 @@ header img {
     width: 75px;
     height: auto;
     margin: auto;
-    display: block;
-    background-color: transparent;
+    display: inline-block;
 }
 
 main {
