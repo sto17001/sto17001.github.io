@@ -2,7 +2,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=43.8231&lon=
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        document.getElementById("currentWeather").textContent = jsObject.weather[0].description;
+        document.getElementById("currentWeather").textContent = jsObject.weather.description;
         document.getElementById("currentTemperature").textContent = jsObject.current.temp;
         document.getElementById("humidity").textContent = jsObject.current.humidity;
     });
@@ -12,15 +12,14 @@ fetch(apiURLforecast)
     .then((response) => response.json())
     .then((jsObject) => {
         const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-        let newList = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
         for (let day = 0; day <= 4; day++) {
-            let d = new Date(newList[day].dt_txt);
+            let d = new Date(day);
             document.getElementById(`dayOfWeek${day+1}`).textContent = dayOfWeek[d.getDay()];
-            document.getElementById(`forecastTemperature${day+1}`).textContent = newList[day].main.temp;
+            document.getElementById(`forecastTemperature${day+1}`).textContent = day.main.temp;
 
-            const imgalt = newList[day].weather[0].description;
-            const imagsrc = 'https://openweathermap.org/img/wn/' + newList[day].weather[0].icon + '@2x.png';
+            const imgalt = day.weather[0].description;
+            const imagsrc = 'https://openweathermap.org/img/wn/' + day.weather[0].icon + '@2x.png';
             document.getElementById(`icon${day+1}`).setAttribute('src', imagsrc);
             document.getElementById(`icon${day+1}`).setAttribute('alt', imgalt);
         }
