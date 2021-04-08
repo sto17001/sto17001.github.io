@@ -270,9 +270,10 @@ text-align:center;
 
 .mainContent iframe{
     float: right;
+    display: inline;
     padding: 10px 0;
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 
 .mainContent h2{
