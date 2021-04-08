@@ -184,7 +184,7 @@ form legend {
 form label.top, form div {
     display: block;
     margin-bottom: 20px;
-    color: grey;
+    color: white;
 }
 
 form label.top input, form label.top select, form label.top textarea {
