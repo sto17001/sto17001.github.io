@@ -264,7 +264,7 @@ text-align:center;
     line-height: 1.5rem;
 }
 
-.mainContent p{
+.mainContent p, strong{
     float:left;
 }
 
