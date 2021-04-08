@@ -286,10 +286,10 @@ text-align:center;
     padding: 15px;
     background-color: #A3B4A2;
     text-align:center;
-    }
+}
     
-    .contactEvents li {
-        text-align: center;
-        list-style-type: none;
-        line-height: 1.5rem;
-    }
+.contactEvents li {
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.5rem;
+}
