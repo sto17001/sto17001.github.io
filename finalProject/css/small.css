@@ -269,8 +269,7 @@ text-align:center;
 }
 
 .mainContent iframe{
-    align-items: center;
-    display:inline;
+    float: right;
     padding: 10px 0;
     margin: auto;
     width: 50%;
