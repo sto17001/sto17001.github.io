@@ -263,3 +263,15 @@ text-align:center;
     list-style-type: none;
     line-height: 1.5rem;
 }
+
+.mainContent p{
+    float:left;
+}
+
+.mainContent iframe{
+    float:right;
+}
+
+.mainContent h2{
+    text-align: center;
+}

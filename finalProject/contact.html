@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-    <title>When will there be Good Weather: Preston, Idaho</title>
+    <title>Rexburg Area Chamber of Commerce</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Tyler Stowell">
@@ -14,112 +14,73 @@
     <link rel="stylesheet" href="css/large.css">
 </head>
 
-
 <body>
     <header>
-        <div id="pancakes">
-            <p>Saturday = Pancakes in the Park!
-                <br>9:00 a.m. Saturday at the city park pavilion.</p>
-        </div>
-        <img src="images/weatherSiteLogo.png" alt="logo for website">
-        <h1>When Will There Be Good Weather?</h1>
-        <div>Here for all of your weather needs!</div>
+        <img src="images/mountainLogo.png" alt="logo for website">
+        <h1>Rexburg Chamber of Commerce</h1>
+        <div>Here to Support Your Business Needs</div>
     </header>
     <nav class="clear">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="nav-menu" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li class="active"><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="city.html">Rexburg</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Fish Haven, Idaho</h2>
-        <div class="summary">
-            <picture>
-                <source srcset="images/heroFishHavenSmall.jpg" media= "(max-width: 30em)">
-                <source srcset="images/heroFishHavenMedium.jpg" media= "(max-width:55.5em)">
-                <source srcset="images/heroFishHavenLarge.jpg" media= "(min-width:56em)">    
-                <img src="images/heroFishHaven.jpg" alt="Hero image">
-            </picture>
-            <div class="weather">
-                <h3>Weather Summary</h3>
-                <p>Currently: <span id="currentWeather"></span></p>
-                <p>Temperature: <span id="currentTemperature"></span></p>
-                <p>wind Chill: <span id="windChillOutput"></span>&deg;F</p>
-                <p>Humidity: <span id="humidity"></span>%</p>
-                <p>Wind Speed: <span id="windSpeed"></span> mph</p>
-            </div>
-        </div>
+        <div class="mainContent">
+            <h2>General Contact Info</h2>
+            <p> Chamber Info
+                167  W. Main St. Ste. 2
+                Rexburg, ID 83440
+                Phone: 208-356-5700
+                FAX: 208-356-5799</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.851101571454!2d-111.8232024424588!3d43.830107022472916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1617852363860!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
 
-        <div class="forecast">
-            <h3>5 Day Forecast</h3>
-            <table>
-                <tbody>
-                    <tr>
-                        <th id="dayOfWeek1"></th>
-                        <th id="dayOfWeek2"></th> 
-                        <th id="dayOfWeek3"></th>
-                        <th id="dayOfWeek4"></th>
-                        <th id="dayOfWeek5"></th>
-                    </tr>
-                    <tr>
-                        <td><img id="icon1" src="" alt="">
-                            <p><span id="forecastTemperature1"></span>&#176;F</p>
-                        </td>
-                        <td><img id="icon2" src="" alt="">
-                            <p><span id="forecastTemperature2"></span>&#176;F</p>
-                        </td>
-                        <td><img id="icon3" src="" alt="">
-                            <p><span id="forecastTemperature3"></span>&#176;F</p>
-                        </td>
-                        <td><img id="icon4" src="" alt="">
-                            <p><span id="forecastTemperature4"></span>&#176;F</p>
-                        </td>
-                        <td><img id="icon5" src="" alt="">
-                            <p><span id="forecastTemperature5"></span>&#176;F</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <form method="get" action="contactThanks.html">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="top">Full Name* <input type="text" name="fName" pattern="[\sA-Za-z]{5,}"
+                            required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="208-555-5555"
+                            required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="123me@gmail.com"
+                            required></label>
+                    <label class="top">Comments <input type="comments" name="comments"
+                            placeholder="Tell us what we can help you with."></label>
+                </fieldset>
         </div>
-        <div id="fishHavenEvents" class="events">
-            <h3>Fish Haven Town Events</h3>
-        </div>
-        <div class="content">
-            <img src="images/pexels-pixabay-414083.jpg" alt="Spring Photo">
-            <h3>Welcoming the New Weather</h3>
-            <p>By Wendy Wright</p>
-            <p>The weather has been changing. Things went according to plan. Everyone was as happy as could be.
-                There was corndogs, cotton candy, popcorn,
-                and much more. If you missed out on the fun, there will be another parade coming up on the 1st of next
-                month. The highlight of the day was the marching band!
-                Eventhough it was snowing they still played their hearts out and marched through the 5 feet of snow that
-                was covering the road. Most of the event was enclosed
-                to keep everyone warm, but the marching band was spectacular out in the snow. The mayor of the town said
-                that it was the most courageous thing he has ever seen
-                in his entire life. That is saying something, considering our mayor has served in the army. Alright
-                that's my article.
-            </p>
+        <div class="events">
+            <h3>Board of Directors</h3>
+            <ul>
+                <li>Chris Mann (CEO/President) 208.356.5700 http://rexburgchamber.org/</li>
+                <li>Brandon Tighe (Chairman of the Board) 208.239.8742 http://ccb-idaho.com/</li>
+                <li>Jane Call (Vice Chairman) 208.637.8494 http://iccu.com/</li>
+                <li>Travis Wade (Past Chairman of the Board) 208.356.7688 http://zionsbank.com/</li>
+                <li>Rick Excell(Treasurer) 208.356.4456 http://edwardsjones.com/</li>
+                <li>Craig Cobia(Secretary) 208.656.1000 http://beehive.org/</li>
+            </ul>
         </div>
     </main>
     <footer>
-        <img src="images/fishHavenMap.png" alt="Preston Map">
         <div id="contact">
-            <h3>When Will There be Good Weather</h3>
-            <p>Address: 111 S 22 W
-                Fish Haven, ID 83440</p>
-            <p>Phone: (208) 123-4567</p>
-            <p>Email: GoodWeather@Weather.com</p>
+            <h3>Rexburg Area Chamber of Commerce</h3>
+            <p>Phone: 1.208.356.5700</p>
+            <p>Email: info@rexburgchamber.com</p>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src="images/facebookicon.ico"
+                    alt="facebook icon"></a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><img src="images/instagramicon.ico"
+                    alt="instagram icon"></a>
         </div>
         <br>
-        <p>&copy; When will there be Good Weather |  <a href="https://openweathermap.org/">Weather Info Provided by OpenWeatherMap.org</a> | Tyler B. Stowell</p>
+        <p>&copy; Rexburg Area Chamber of Commerce | <a
+                href="http://rexburgchamber.org/board-of-directors/">SomeInformation Provided by RexburgChamber.org</a>
+            | Tyler B. Stowell</p>
         <div id="date"></div>
         <script src="js/script.js"></script>
-        <script src="js/fishHaven.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
