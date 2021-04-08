@@ -271,7 +271,7 @@ text-align:center;
 .mainContent iframe{
     float: right;
     position: relative;
-    padding: 10px 0;
+    padding: 15px 0;
     margin: auto;
     width: 60%;
 }
@@ -281,7 +281,7 @@ text-align:center;
 }
 
 .contactEvents {
-    padding: 5px;
+    padding: 10px;
     text-align:left;
 }
     
