@@ -82,13 +82,4 @@
     .events{
         width:50%;
     }
-
-    .mainContent iframe{
-        float: right;
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 10px 0;
-        margin: auto;
-        width: 60%;
-    }
 }

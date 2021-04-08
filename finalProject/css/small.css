@@ -269,7 +269,11 @@ text-align:center;
 }
 
 .mainContent iframe{
-    display:none;
+    float: right;
+    position: relative;
+    padding: 10px 0;
+    margin: auto;
+    width: 60%;
 }
 
 .mainContent h2{
