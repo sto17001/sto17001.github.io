@@ -1,0 +1,38 @@
+{
+    "businesses": [{
+            "businessName": "Mill Hollow",
+            "website": "https://www.facebook.com/Millhollow-173323709381926/?fref=ts",
+            "number": "(208) 356-0847"
+        },
+        {
+            "businessName": "Smith Kunz and Associates",
+            "website": "https://www.smithkunz.com/",
+            "number": "(208) 356-8500"
+        },
+        {
+            "businessName": "Big Juds",
+            "website": "http://www.bigjudsboise.com/",
+            "number": "(208) 343-4439"
+        },
+        {
+            "businessName": "Pizza Pie Cafe",
+            "website": "http://www.pizzapiecafe.co/locations/#loc-boise",
+            "number": "(208) 426-0075"
+        },
+        {
+            "businessName": "Blisters BBQ",
+            "website": "https://blistersbbq.com/",
+            "number": "(208) 356-3965"
+        },
+        {
+            "businessName": "The Hickory",
+            "website": "http://thehickorybbq.com/",
+            "number": "(208) 359-2328"
+        },
+        {
+            "businessName": "Frescos Kitchen and Grill",
+            "website": "https://frescokitchengrill.com/",
+            "number": "(208) 497-0480"
+        }
+    ]
+}
